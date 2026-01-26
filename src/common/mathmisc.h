@@ -25,6 +25,7 @@
 #define RUBBERBAND_MATHMISC_H
 
 #include "sysutils.h"
+#include <cstddef> // required starting emscripten 5.0.0
 
 #ifndef M_PI
 #define M_PI 3.14159265358979323846
